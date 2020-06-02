@@ -18,10 +18,11 @@
  */
 
 
-    Route::namespace('Admin')->name('admin.')->prefix('admin')->group(function () {
-    Route::get('/', function () {
-        return view('welcome');
-    });
+    Route::namespace('Admin')->name('admin.')->prefix('xunfish')->group(function () {
+    
+    Route::redirect('/', '/xunfish/index/index');
+    Route::redirect('/index', '/xunfish/index/index');
+    
     //必须登录
     Route::middleware(['LoginCheck'])->group(function(){
         Route::get('/index/index','IndexController@index')->name('index');
