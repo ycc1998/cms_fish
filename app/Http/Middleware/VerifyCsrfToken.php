@@ -19,7 +19,7 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        'admin/upload/editorup',
-        'admin/upload/up'
+        'xunfish/upload/editorup',
+        'xunfish/upload/up'
     ];
 }

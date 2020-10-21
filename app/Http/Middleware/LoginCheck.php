@@ -112,7 +112,7 @@ class LoginCheck
                         if ($this->checkPermission(strtoupper($_v['url']), true))
                         {
                             $_v['_url'] = $_v['url'];
-                            $_v['url']  = url('admin/'.$_v['url']);
+                            $_v['url']  = url('xunfish/'.$_v['url']);
                         }else {
                             $_v['url'] = '__NOPERMISSION__';
                         }
