@@ -1,0 +1,39 @@
+body {
+	background-color: #ebebeb;
+}
+
+a, a:hover {color:#fff;}
+
+.cen-box {
+    width: 850px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -150px;
+    margin-left: -425px;
+    height: 300px;
+    z-index: 9;
+}
+
+.cen-box .succcess{
+    background-image: url('../../images/state.png');
+    height:120px;
+    width:120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cen-box .checkHint {
+    font-size:22px;
+    color:#333;
+    text-align: center;
+    line-height: 200%;
+}
+
+.btns {
+    text-align: center;
+    padding:20px 0;
+}
+
+.btns .center,  .btns .home{
+    margin:0 10px;
+}

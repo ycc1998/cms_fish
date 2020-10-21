@@ -1,0 +1,98 @@
+.step-title {
+	width: 100%;
+	border-bottom: 1px solid #eee;
+}
+
+.step-title .step-header {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.step-title span {
+	font-size: 36px;
+	color: #ff0042;
+	text-align: left;
+	line-height: 100px;
+}
+
+.step-title .step-header .plan {
+	float: right;
+	line-height: 100px;
+}
+
+.step-title .step-header .plan li {
+	float: left;
+	padding-left: 50px;
+	font-size: 18px;
+}
+
+.step-title .step-header .plan li.cur {
+	color: #ff0042;
+}
+
+.step-done .icon{
+	background-image: url('../../images/state.png');
+    height:80px;
+    width:120px;
+	display:inline-block;
+	background-position-y: -275px;
+}
+
+.step-done p{
+	padding:30px;
+	font-weight:bold;
+}
+
+.form-main {
+	margin: 35px auto;
+}
+
+.form-wrapper .form-item {
+	padding: 10px 0;
+	display: block;
+	color:#555;
+	font-weight:normal;
+	margin:0;
+}
+
+.form-wrapper .form-item .btn:disabled {
+	border: 1px solid #DDD;
+	background-color: #F5F5F5;
+	color: #888;
+}
+
+.form-label {
+	display: inline-block;
+	zoom: 1;
+	width: 30%;
+	padding: 0 10px;
+	height: 32px;
+	line-height: 32px;
+	text-align: right;
+	vertical-align: middle;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #555;
+	font-weight:normal;
+}
+
+.form-text, .form-select {
+	border: 1px solid #dfdfdf;
+	outline: none;
+	padding: 5px 10px;
+	line-height: 24px;
+	height: 24px;
+	box-sizing: content-box;
+	font-size: 14px;
+	font-weight:normal;
+	margin-right:5px;
+}
+
+.form-text {
+	width: 320px;
+}
+
+.form-text:focus, .form-textarea:focus, .form-select:focus {
+    border-color: #ff0042;
+}

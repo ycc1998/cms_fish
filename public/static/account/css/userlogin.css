@@ -1,0 +1,344 @@
+body {
+	background-color: #fff;
+	color: #555;
+}
+a {
+	text-decoration: none;
+	color: #336699;
+	font-size: 14px;
+}
+a:hover {
+	color: #ff0042;
+}
+
+.register-title {
+	font-size: 36px;
+	color: #ff0042;
+	width: 100%;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 1px solid #eee;
+}
+
+.register-box {
+	width: 450px;
+	margin: 0 auto;
+	padding: 0;
+	min-height: 200px;
+	margin-top: 32px;
+}
+
+.section-form {
+	overflow: visible;
+}
+
+.section-form .form-item {
+	overflow: visible;
+	position: relative;
+	zoom: 1;
+	margin-top: 0;
+	background-color: #fff;
+	border: 1px solid #dfdfdf;
+	margin-top: -1px;
+}
+
+.section-form .form-item strong {
+	display: inline-block;
+	font-weight: normal;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: right;
+	width: 100px;
+	font-size: 16px;
+	overflow: hidden;
+	line-height:48px;
+}
+
+.section-form .form-item strong img {
+	height: 48px;
+}
+
+.section-form .form-item label input {
+	padding: 0;
+	height: 48px;
+	line-height: 28px;
+	padding: 10px 0;
+	border: 0;
+	width: 348px;
+	font-size: 16px;
+	color: #333;
+	outline: none;
+	background: none;
+	font-weight:normal;
+}
+
+.section-form .form-item label input {
+	padding: 10px 30px;
+}
+
+.section-form .form-item label {
+	display: block;
+	position: relative;
+	padding-left: 100px;
+	padding-right: 30px;
+	margin-bottom:0;
+	font-weight:normal;
+}
+
+.tips {
+	font-size: 14px;
+	color: #ff0042;
+	position: absolute;
+	width: auto;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	top: 12px;
+	left: 460px;
+}
+
+.section-form .form-item .mbtn{
+	position: absolute;
+	top: 8px;
+	right: 12px;
+}
+
+
+#m-verify-get:disabled {
+	border: 1px solid #DDD;
+	background-color: #F5F5F5;
+	color: #888;
+	font-size: 12px;
+}
+
+.section-form .form-item .ext {
+	position: absolute;
+	top: 12px;
+	right: 5px;
+	background: url("../../images/state_small.png");
+	background-position: 0px -130px;
+	width: 22px;
+	height: 22px;
+}
+
+.section-form .form-item label.valid .ext {
+	background-position: 0px -2px;
+}
+
+.section-form .form-item label.err .ext {
+	background-position: 0px -26px;
+}
+
+.clause {
+	position: relative;
+	font-size: 14px;
+	line-height: 48px;
+}
+
+.clause .ext {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.register-box .hint {
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	background-color: #0acb8d;
+	visibility: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login-wrap {
+	width: 326px;
+	margin: 0px auto;
+	background-color: #fff;
+	padding: 20px 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -145px; /* 改高度时修改 */
+	margin-left: -162px;
+	z-index: 9;
+}
+
+.login-wrap .title {
+	font-size: 22px;
+	color: #555;
+	height: 34px;
+	line-height: 34px;
+}
+
+.error-tips p {
+	display: block;
+	height: 28px;
+	background-color: #e2e2e2;
+	text-align: center;
+	color: #ff0042;
+	display: block;
+	overflow: hidden;
+}
+
+.error-tips p .error-icon {
+	background: url("../../images/state_small.png");
+	background-position: 0px -102px;
+	width: 20px;
+	height: 28px;
+	display: inline-block;
+}
+
+.error-tips p span.error-text {
+	display: inline-block;
+	position: relative;
+	line-height: 28px;
+	top: -8px;
+	font-size: 13px;
+}
+
+.fieldset label {
+	display: block;
+	position: relative;
+	border: 1px solid #d7d7d7;
+	padding-left: 30px;
+	height: 42px;
+	font-weight: normal;
+	margin:0;
+}
+
+.fieldset input {
+	width: 324px;
+	line-height: 16px;
+	height: 40px;
+	padding-left: 40px;
+	margin-left: -30px;
+	border: 0;
+	font-size: 14px;
+	outline:0;
+}
+
+.fieldset label.password {
+	margin-top: -1px;
+}
+
+.fieldset i.username {
+	background: url("../../images/state_small.png");
+	background-position: 0px -46px;
+	width: 22px;
+	height: 25px;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+	top: 8px;
+}
+
+.fieldset i.password {
+	background-position: 0px -68px;
+}
+
+.opts {
+	margin: 18px 0;
+	font-size: 14px;
+	height: 25px;
+}
+
+.opts label, .opts input {font-weight:normal;margin:0}
+
+.opts p.ext {
+	height: 16px;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	margin-top: -20px;
+}
+
+.signin-wrap {
+	width: 100%;
+	overflow: hidden;
+	padding: 30px 0;
+}
+
+.signin-wrap .signin-login {
+	width: 322px;
+	background-color: #fff;
+	padding: 40px 22px;
+	float: right;
+	border:1px solid #e0e0e0;
+}
+
+.signin-wrap .signin-login .title {
+	font-size: 26px;
+	color: #555;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+}
+
+.signin-wrap .fieldset input {
+	width: 274px;
+	line-height: 16px;
+	height: 40px;
+	padding-left: 40px;
+	margin-left: -30px;
+	border: 0;
+	font-size: 14px;
+}
+
+.signin-wrap .fieldset label.password {
+	margin-top: 15px;
+}
+
+.signin-wrap .opts {
+	margin: 20px 0;
+	height: 45px;
+}
+
+.signin-wrap .wrap-banner {
+	width: 1270px;
+	margin: 0 auto;
+	background: url("/banner/login/banner1.jpg") no-repeat;
+	height:415px;
+	overflow: hidden;
+}
+
+.signin-wrap .wrap-banner .wrap{
+	width:980px;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.user-login {
+	height: 100px;
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.user-login span {
+	font-size: 36px;
+	color: #ff0042;
+	text-align: left;
+	line-height: 100px;
+}
+
+.user-login  a {
+	position: absolute;
+	right: 0;
+	font-size: 16px;
+	line-height: 100px;
+}
+
+.copyright {
+	font-size: 13px;
+	text-align: center;
+	color: #333;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.copyright a {
+	color: #333;
+}

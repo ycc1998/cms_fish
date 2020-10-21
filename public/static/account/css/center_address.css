@@ -1,0 +1,87 @@
+.user-address-list {
+    padding-top: 30px;
+}
+
+.address-item {
+    width: 285px;
+    height: 178px;
+    border: 1px solid #eee;
+    position: relative;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.user-address-list .address-item:hover {
+    border-color: #ddd;
+}
+
+.address-item dl {
+    padding: 15px 24px 0;
+    margin: 0;
+}
+.address-item .tag {
+    float: right;
+    color: #999;
+	font-weight:bold;
+}
+.address-item .uname {
+    font-size: 18px;
+    color: #333;
+    font-style: normal;
+}
+
+.address-item dt {
+    margin: 0 0 10px;
+    line-height: 30px;
+	font-weight:normal;
+}
+
+.address-item dd {
+    margin: 0;
+    line-height: 22px;
+    color: #888;
+}
+
+.address-item .actions {
+    position: absolute;
+    right: 24px;
+    bottom: 10px;
+}
+
+.address-item .modify {
+    display: none;
+    margin-left: 10px;
+    color: #ff0042;
+}
+
+.user-address-list .address-item:hover .modify {
+    display: inline;
+}
+
+.user-address-list .address-item {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.address-item-new {
+    text-align: center;
+    color: #bbb;
+	cursor: pointer;
+}
+.address-item-new:hover {
+    color: #888;
+}
+
+.address-item-new .iconfont {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 63px auto 8px;
+	background: url("../../images/add_address.png");
+	opacity: .5;
+}
+
+.address-item-new:hover .iconfont{
+	opacity: .9;
+}

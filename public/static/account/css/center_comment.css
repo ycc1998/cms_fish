@@ -1,0 +1,65 @@
+.pagination-wraper {
+    padding: 20px 0;
+}
+
+.user-comment-list .comment-item {
+	border-bottom:1px dashed #ddd;
+	padding:15px 0;
+	overflow:hidden;
+}
+
+.user-comment-list .comment-item:last-child {
+    border-bottom: none;
+}
+
+.user-comment-list .comment-item .comment-item-title {
+	overflow: hidden;
+	color:#999;
+	padding:10px 0;
+}
+
+.user-comment-list .comment-item .comment-item-title a{
+	font-size:16px;
+	max-width:600px;
+	display: inline-block;
+	overflow: hidden;
+	height:22px;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+
+.user-comment-list .comment-item .comment-item-title div.right {
+	float:right;
+	color:#999;
+	font-size: 14px;
+}
+
+.user-comment-list .comment-item .comment-item-title div.right span{
+	margin-left:10px;
+}
+
+.user-comment-list .comment-item .comment-item-content {
+	color:#555;
+	font-size:16px;
+}
+
+.user-comment-list .comment-item .comment-item-reply {
+	line-height: 1.5;
+    margin-top: 15px;
+    padding-left: 0;
+	background-color:#f9f9f9;
+	padding:10px;
+	font-size: 16px;
+	color:#999;
+	border:1px solid #eee;
+}
+
+.user-comment-list .comment-item .comment-item-reply span {
+    display: block;
+    color: #555;
+	line-height: 2;
+}
+
+.user-comment-list .comment-item .comment-item-reply div {
+    color:#555;
+}

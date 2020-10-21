@@ -1,0 +1,16 @@
+.checkboxs label{font-weight: normal;}
+.checkboxs u{text-decoration: none;position: relative;left: 5px;}
+.checkboxs dd{padding: 10px 0 10px 25px;overflow: hidden;}
+.checkboxs dd li{float: left;display: inline;width: 260px;padding: 5px 0;padding-right: 20px;}
+.checkboxs ul, .checkboxs dd span{float: left;}
+.checkboxs dd div{overflow: hidden;padding: 6px 0;}
+.checkboxs dl{display: block;margin: 0;overflow: hidden;}
+.checkboxs dt.main-permission{padding: 5px 15px;color: #666;}
+.checkboxs dt.sub-permission{padding: 15px 15px;width: 230px;float: left;color: #666;}
+.checkboxs{font-size: 18px;color: #222;}
+.checkboxs input[type=checkbox]:checked+i{background-position: 0px 0px;}
+.checkboxs input[type=checkbox]+i{background-position: 0 -35px;}
+.checkboxs input[type=checkbox]{position: relative;top: -4px;visibility: hidden;}
+.checkboxs input[type=checkbox]+i, input[type=radio]+i{display: inline-block;background: url(../images/checked.png) 0px -19px;background-repeat: no-repeat;height: 17px;padding-left: 24px;cursor: default;position: absolute;top: 50%;margin-top: -10px;left: 18px;}
+.checkboxs .s-some input[type=checkbox]+i{background-position: 0 -38px;}
+.ctrl-box{position: relative;padding-left: 20px;height: 30px;display: block;}

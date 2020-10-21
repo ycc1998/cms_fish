@@ -1,0 +1,99 @@
+.main-right h3 {
+	font-size:18px;
+	color:#999;
+	padding-bottom:10px;
+}
+.pay-money ul {
+	overflow: hidden;
+}
+.pay-money ul li{
+	float: left;
+    font-size: 18px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    width:140px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.pay-money ul li:last-child {
+	line-height: 1;
+	padding:0;
+	margin:0;
+}
+
+.pay-money ul li.checked {
+	background-image: url("/static/images/check.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+.pay-money ul li input{
+	width:138px;
+    height:48px;
+    text-align: center;
+    font-size:18px;
+    border:none;
+}
+
+.pay-money ul li input[type="radio"] {
+	position: absolute;
+	left:-9999px;
+}
+
+.pay-money ul li input:focus{
+	outline:0;
+}
+
+.pay-online {
+	position: relative;
+	zoom: 1;
+	display: inline-block;
+	overflow: hidden;
+	min-width: 100%;
+}
+
+.pay-online ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.pay-online li {
+	height: 50px;
+	width: 188px;
+	float: left;
+	position: relative;
+	border: 1px solid #ddd;
+	margin-right:20px;
+	cursor: pointer;
+	vertical-align: middle;
+	line-height: 10px;
+}
+
+.pay-online li .bank-icon {
+	margin-top: 8px;
+}
+
+.pay-online li input,.pay-online li em {
+	display: none;
+}
+
+.bank-icon {
+	display: inline-block;
+	height: 34px;
+	line-height: 0;
+	width: 180px;
+	background: url("../../images/bank.png") no-repeat transparent;
+	cursor: pointer;
+}
+
+.bi-alipay {
+	background-position: 0 -1260px;
+}
+
+.bi-weixin {
+	background-position: 0 -1650px;
+}

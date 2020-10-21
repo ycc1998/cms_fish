@@ -1,0 +1,133 @@
+.photo-content {
+	padding:20px;
+	overflow:hidden;
+	width:650px;
+}
+
+.pic-side {
+    width: 210px;
+    float: left;
+}
+
+.pic-style-wrap {
+    width: 160px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.pic-style-wrap span {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.pic-side .pic-style01 {
+    width: 149px;
+    height: 149px;
+}
+
+.pic-side .pic-style02 {
+    width: 79px;
+    height: 79px;
+}
+
+ .pic-side .pic-style03 {
+    width: 29px;
+    height: 29px;
+}
+
+.pic-side p {
+    padding-top: 5px;
+	color:#999;
+	font-size:13px;
+}
+
+.img-side {
+    float: left;
+}
+
+.img-side .inner {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-side .upload {
+    width: 398px;
+    height: 398px;
+    border: 1px solid #eee;
+    background-color: #fdfdfd;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-side .icon-text {
+    padding-top: 208px;
+    font-size: 14px;
+    color: #666;
+}
+
+.img-side .icon-wrap {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 175px;
+    left: 50%;
+    margin-left: -12px;
+    overflow: hidden;
+}
+
+.img-side .icon-wrap span {
+    display: block;
+    border: 1px solid #999;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.img-side .icon-wrap .t1 {
+    top: -2px;
+    left: -2px;
+}
+
+.img-side .icon-wrap .t2 {
+    top: -2px;
+    left: 12px;
+}
+
+.img-side .icon-wrap .t3 {
+    top: 12px;
+    left: -2px;
+}
+
+.img-side .icon-wrap .t4 {
+    top: 12px;
+    left: 12px;
+}
+
+.img-side .file {
+    width: 60px;
+    height: 75px;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 162px;
+    left: 170px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    text-indent: -200px;
+}
+
+.img-side .op-pic-txt {
+    color: #bbb;
+    line-height: 42px;
+	width: 398px;
+	margin:0 auto;
+}

@@ -1,0 +1,150 @@
+#page-main .main-right .content .login-info {
+	font-size:14px;
+}
+
+#page-main .main-right .login-info .avatar {
+	float:left;
+	position: relative;
+	border: 1px solid #dfdfdf;
+	border-radius: 50%;
+    overflow: hidden;
+}
+
+#page-main .main-right .login-info .avatar a{
+	display: block;
+    height: 100px;
+    overflow: hidden;
+    text-decoration: none;
+    width: 100px;
+}
+
+#page-main .main-right .login-info .avatar span{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	width:100%;
+	text-align:center;
+	background: none repeat scroll 0 0 rgba(0,0,0,0.46);
+	color:#fff;
+	display:none;
+}
+
+#page-main .main-right .login-info .avatar:hover span{
+	display:block;
+}
+
+#page-main .main-right .login-info .account-info {
+	float:left;
+	margin-left:40px;
+}
+
+#page-main .main-right .login-info .account-name {
+	color:#333;
+	font-size:18px;
+}
+
+#page-main .main-right .login-info .recharge:hover {
+	background:#ff0042;
+	color:#fff;
+}
+
+#page-main .main-right .login-info .account-info .account-info-item {
+	width:550px;
+	line-height:2;
+	color:#333;
+}
+
+#page-main .main-right .login-info .account-info .account-info-item a{
+	margin-left: 5px;
+}
+
+#page-main .main-right .login-info .account-info .account-info-item span{
+	color:#999;
+}
+
+#page-main .main-right .login-info .account-info .account-info-item .user-icon {
+	background-image: url("/static/images/vip.png");
+	width:20px;
+	height:16px;
+	display: inline-block;
+}
+
+#page-main .main-right .login-info .account-info .account-info-item .vip {
+	background-position: 0px 16px;
+}
+
+.userbind-wrap {
+    border-top: 1px solid #eaeaea;
+    background-color: #fcfcfc;
+}
+
+.userbind-wrap .w50 {
+    width: 45%;
+    padding: 30px 15px 15px 35px;
+}
+.userbind-wrap .cut-line {
+    display: inline;
+    float: left;
+    width: 1px;
+    height: 125px;
+    background-color: #eaeaea;
+}
+
+.userbind-icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: url(../../images/user_bind_icon.png) no-repeat;
+}
+
+.phone-done {
+	background-position:0 -240px
+}
+.mail-done {
+	background-position:-80px -240px
+}
+.phone-uncheck {
+	background-position:0 -320px
+}
+.mail-uncheck {
+	background-position:-80px -320px
+}
+.phone-default {
+	background-position:0 0
+}
+.mail-default {
+	background-position:-80px 0
+}
+.phone-default:hover {
+	background-position:0 -80px
+}
+.mail-default:hover {
+	background-position:-80px -80px
+}
+.phone-default:active {
+	background-position:0 -160px
+}
+.mail-default:active {
+	background-position:-80px -160px
+}
+
+.userbind-wrap .user-setting-item-wrap {
+	margin-left: 20px;
+	float:left;
+}
+
+.userbind-wrap .user-setting-item-wrap .userbind-item em{
+	color:#999;
+}
+
+.userbind-item {
+    min-height: 25px;
+    height: auto!important;
+    height: 25px;
+    font-size: 14px;
+}
+
+.userbind-item .mainTitle{
+	font-size:15px;
+}
