@@ -17,9 +17,9 @@
         <div class="images-thumb">
             <img data-md5="{{$vo['md5']}}" src="{{$vo['path']}}" onload="fitUploadImageSize(this)" />
             @if(($setMain == true) && ($is_multi == true))
-            <span data-id="{$vo.id}" class="setMain">主图</span>
+            <span data-id="{{$vo['id']}}" class="setMain">主图</span>
             @endif
-            <span data-confirm="你确定移除该图片吗？" data-id="{$vo.id}" class="remove">移除</span>
+            <span data-confirm="你确定移除该图片吗？" data-id="{{$vo['id']}}" class="remove">移除</span>
         </div>
         @endforeach
     </div>
