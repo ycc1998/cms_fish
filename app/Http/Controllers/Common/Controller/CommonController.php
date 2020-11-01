@@ -167,7 +167,7 @@ class CommonController extends Controller
                     'mimes'=>$info->getMimeType(),
                     'ext' => $file->getClientOriginalExtension(),
                     'config' => $configName,
-                    'md5' => '',
+                    'md5' => md5($name),
                     'size' => $size
                 ]);
                 // 不能用save()的返回值，返回的是插入的记录数
@@ -175,7 +175,7 @@ class CommonController extends Controller
                     'name'=>$name,
                     'id'=>$result->id,
                     'path'=>$savePath.$saveName,
-                    'md5'=>'',
+                    'md5'=>md5($name),
                     'status'=>true
                 ]);
                 // 用ajax的方式返回回调信息
